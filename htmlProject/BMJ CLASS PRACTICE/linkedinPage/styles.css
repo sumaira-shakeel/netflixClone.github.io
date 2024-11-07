@@ -1,0 +1,91 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'popins',sans-serif;}
+body{
+    background-color: rgb(235, 235, 235);
+}
+nav .wraper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 4rem;
+    background-color: #fff;
+}
+nav .wraper .left,
+nav .wraper .right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2 rem;
+}nav .wraper .left{
+    padding-left:3rem ;
+    display: flex;
+    gap: 0.7rem;
+
+}
+nav .wraper .logo i{
+    font-size: 2.5rem;
+    color: #0a66c2;
+}
+nav .wraper .left .input{
+    background-color: rgb(237, 245, 246);
+    width: 100%;
+    padding: 0.5rem 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 0.2rem;
+
+}
+
+nav .wraper .left .input input[type='search']{
+    width: 16rem;
+    border: none;
+    background: transparent;
+}
+nav .wraper .left .input input[type='search']::placeholder{
+    font-size: 0.8rem;
+    color: rgb(49,49, 49);
+    font-weight: 100;
+
+
+}
+nav .wraper .left .input i{
+    font-size: 0.8rem;
+    color: gray;
+
+}
+nav .wraper .right .home,
+nav .wraper .right .network,
+nav .wraper .right .jobs,
+nav .wraper .right .message,
+nav .wraper .right .notification,
+nav .wraper .right .me
+{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    cursor: pointer;}
+    nav .wraper .right .home,
+nav .wraper .right .network,
+nav .wraper .right .jobs,
+nav .wraper .right .message,
+nav .wraper .right .notification{
+    color: gray;
+
+}
+nav .wraper .right .home i,
+nav .wraper .right .network i,
+nav .wraper .right .jobs i,
+nav .wraper .right .message i,
+nav .wraper .right .notification i{
+    font-size: 1.2rem;
+
+}

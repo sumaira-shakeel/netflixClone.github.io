@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume_builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+    <h1>Static Resume Builder</h1>
+    <fieldset>
+        <legend>Persnol Information</legend>
+        <label for="neme">Name:</label><br>
+        <input type="text" id="name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" required><br>
+        <label for="phone">Phone:</label><br>
+        <input type="tel" id="phone" required>
+        <label for="address">Residency:</label><br>
+        <input type="add" id="add" required>
+        <!-- profile picture -->
+         <label for="profilePicture">Profile Picture:</label>
+         <input type="file" class="profilePicture"  id="profilePicture" required>
+
+    </fieldset>
+    <fieldset>
+       <legend>Education</legend>
+       <label for="Education">Education:</label><br><textarea name="Education" id="education" rows="4">     </textarea>
+
+</fieldset>
+    <fieldset>
+       <legend>Experiance</legend>
+       <label for="Education">
+        Experiance:</label>
+        <br><textarea name="
+        experiance" id="experiance" rows="4">     </textarea>
+
+</fieldset>
+
+    <fieldset>
+       <legend>Skills</legend>
+       <label for="skills">
+        skills:</label><br>
+       <textarea name="skills" id="skills" rows="4">     </textarea>
+
+</fieldset>
+<div>
+<button type="submit" class="btn"> Generate Resume Below</button>
+</div>
+
+
+</form>
+</body>
+</html>

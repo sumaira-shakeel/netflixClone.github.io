@@ -1,0 +1,149 @@
+*{
+    /* background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/e89c9679-2f5f-491d-924c-c58924a8ee4b/8ec27a1d-02ce-4489-b320-a95106906f5d/IN-en-20221121-popsignuptwoweeks-perspective_alpha_website_medium.jpg); */
+
+    background-size: 1350px 650px;
+    background-repeat: no-repeat;
+    background-color: #030303;
+    color: #fff;
+
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+nav .img img{
+    width: 17%;
+    margin-top: -20px;
+}
+nav .btn{
+    display: flex;
+}
+
+ 
+ 
+ .eng{
+    width: 110px;
+    height: 40px;
+    background-color: #030303;
+    color: #fff;
+    font-size: 19px;
+    border: 2px solid white;
+    border-radius: 3px;
+    margin-inline-end: 22px;
+    position: relative;
+    left: 61rem;
+    bottom: 69px;
+}
+ .eng:hover{
+    background-color: transparent;
+}
+ .sign{
+    width: 90px;
+    height: 40px;
+    background-color: 
+    rgb(224,16,16);
+    color: #fff;
+    font-size: 19px;
+    border: 2px solid white;
+    border-radius: 3px;
+    margin-inline-end: 22px;
+
+    position: relative;
+    left: 60rem;
+    bottom: 69px;
+    border: none;
+
+
+}
+.sign:hover{
+    background-color: transparent;
+    border: 3px solid red;
+}
+.main{
+    text-align: center;
+
+}
+.main h1{
+    font-size: 50px;
+    font-family: 'Mukta','sans-sarif';
+}
+.main h3{
+    font-size: 44px;
+}
+.main p{
+    font-size: 27px;
+}
+.input{
+    display: flex;
+    justify-content: center;
+}
+.input input{
+    width: 400px;
+    height: 58px;
+    border: none;
+    font-size: 25px;
+    background-color: #fff;
+}
+.input button{
+    width: 200px;
+    height: 60px;
+    background-color: rgb(225,11,11);
+    font-size: 26px;
+    border: none;
+
+}
+.first{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 160px;
+    padding: 66px;
+    border-top: 3px solid gray;
+}
+.first h1{
+    font-size: 55px;
+}
+.first p{
+    font-size: 27px;
+}
+
+.first img{
+    width: 44%;
+
+}
+.buttons h1{
+     text-align: center;
+     margin-top: 33px; 
+     font-size: 44px; 
+}
+ .buttons button{
+    width: 600px;
+    height: 60px;
+    background-color: gray;
+    color: #fff;
+    font-size: 25px;
+    margin-left: 30%;
+    text-align: left;
+    margin-bottom: 23px;
+
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 44px;
+    border-top: 3px solid gray;
+    margin-top: 48px;
+}
+
+
+
+
+
+    
+ 
+
+
+
+

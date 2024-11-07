@@ -1,0 +1,40 @@
+
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+form{
+    height: 760px;
+    width:600px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    background-color: aliceblue;
+    color: brown;
+
+}
+h1{
+    font-size: 400x;
+    font-family: 'Times New Roman', Times, serif;
+
+margin-left: 90px;
+
+}
+legend{
+    font-size: 20px;
+}
+label{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    
+
+    
+
+}
+input{
+    width: 50%;
+    height: 40px;
+    margin-top: 20px;
+}

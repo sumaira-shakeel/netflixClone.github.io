@@ -1,0 +1,63 @@
+
+*{margin: 0;
+padding: 0;
+}
+.navbar{
+    background-color: aqua;
+    color: white;
+    padding: 20px;
+    position: sticky;
+    top: 0%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+}
+
+.centerSideBar{
+    height: 600px;
+    width: 600px;
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10px;
+
+    
+    
+}
+.inputArea{
+       width: 600px;
+    border: 2px solid ;
+    padding: 8px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+.btn{
+    width: 600px;
+    border: 2px solid ;
+    padding: 8px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: rgba(75, 42, 165, 0.512);
+    margin-top: 10px;
+}
+.leftSideBar{
+    height: 600px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+position: fixed;
+top: 20%;
+}
+.rightSideBar{
+    height: 600px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+
+    
+
